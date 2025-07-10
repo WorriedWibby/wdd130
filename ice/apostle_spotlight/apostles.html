@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        #apostle_box {
+            background-image: url(images/christus.webp);
+            object-fit: cover;
+            background-position: 50% 10%;
+            width: 75%;
+            border-radius: 50px;
+            border: 10px solid #000000;
+        }
+        #presidency {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            box-sizing: border-box;
+            grid-template-columns: 1fr 2fr 1fr;
+            justify-content: center;
+            align-items: baseline;
+        }
+
+        #presidency img {
+            margin: 0 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 10px solid #ffffff;
+        }
+
+        #presidency .smaller {
+            width: 125px;
+            height: 125px;
+        }
+
+        h1, h2 {
+            color: #ffffff;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em;
+        }
+
+        h2 {
+            font-size: 2em;
+            
+        }
+
+        #apostles {
+            width: 50%;
+            height: 500px;
+            display: grid;
+            margin: 0 auto;
+            box-sizing: border-box;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        #apostles img {
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 10px solid #ffffff;
+            object-fit: cover;
+        }
+
+        #apostles img:hover, #presidency img:hover {
+            border-color: #d0d660;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="apostle_box">
+        <h1>First Presidency</h1>
+        <div id="presidency">
+            <img class="smaller" src="images/oaks.webp" alt="Dallin H. Oaks">
+            <img src="images/nelson.webp" alt="Russel M. Nelson">
+            <img class="smaller" src="images/eyring.webp" alt="Henry B. Eyring">
+        </div>
+        <h2>Quorum of the Twelves Apostles</h2>
+        <div id="apostles">
+            <img src="images/holland.webp" alt="apostle">
+            <img src="images/uchtdorf.webp" alt="apostle">
+            <img src="images/bednar.webp" alt="apostle">
+            <img src="images/cook.webp" alt="apostle">
+            <img src="images/christofferson.webp" alt="apostle">
+            <img src="images/anderson.webp" alt="apostle">
+            <img src="images/rasband.webp" alt="apostle">
+            <img src="images/stevenson.webp" alt="apostle">
+            <img src="images/renlund.webp" alt="apostle">
+            <img src="images/gong.webp" alt="apostle">
+            <img src="images/soares.webp" alt="apostle">
+            <img src="images/kearon.webp" alt="apostle">
+        </div>
+    </div>
+</body>
+</html>

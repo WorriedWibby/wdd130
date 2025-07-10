@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <table id="devo-tab">
+          <tbody>
+            <tr>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Location</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Jeffrey R. Holland</td>
+              <td>For Times of Trouble</td>
+              <td>BYU</td>
+              <td>1980</td>
+            </tr>
+            <tr>
+              <td>Gabe W. Reid</td>
+              <td>Go to Work and Build</td>
+              <td>BYU</td>
+              <td>2025</td>
+            </tr>
+            <tr>
+              <td>Kevin G. Brown</td>
+              <td>Hastening the Work in You</td>
+              <td>BYU-I</td>
+              <td>2025</td>
+            </tr>
+          </tbody>
+        </table>
+        <form>
+          <label for="speaker">Speaker</label>
+          <input type="text" id="speaker" name="speaker" placeholder="Name of Speaker">
+          <label for="talk">Talk</label>
+          <input type="text" id="talk" name="talk" placeholder="Name of Talk">
+          <label for="locale">Location</label>
+          <select id="locale" name="Location">
+            <option>BYU</option>
+            <option>BYU-I</option>
+          </select>
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" placeholder="Date of Talk">
+          <input type="submit" value="submit">
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

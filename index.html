@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Caleb's Portal</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div id="header-content">
+                <a href="index.html"><img src="images/logo.png" alt="portal"></a>
+                <h1>My Portal</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="home">Home</a></li>
+                    <li><a href="ice/index.html">ICE</a></li>
+                    <li><a href="wwr/index.html" target="_blank">WWR</a></li>
+                    <li><a href="about_me.html">About Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box"><img id="hero-img" src="images/hero.jpg"></div> <!--Image found with Adobe Stock-->
+            <section id="hero-msg">
+                <h2>WWR</h2>
+                <h3>Check Out My WWR Website</h3>
+                <a href="wwr/index.html" target="_blank">Go Now</a>
+            </section>
+        </div>
+        <main>
+            <h2>Favorite Ice Challenges</h2>
+            <div id="ice-grid">
+                <section class="ice-card">
+                    <img src="images/grid_flags.png" alt="C.A.R. flag">
+                    <h4>Grid based Flags</h4>
+                    <div class="card-link"><a href="ice/grid_flags/flags.html" target="_blank">Go Now</a></div>
+                </section>
+                <section class="ice-card">
+                    <img src="images/fav-devo.png" alt="devotional table">
+                    <h4>Devotional Table</h4>
+                    <div class="card-link"><a href="ice/favorite_devo/favdevo.html" target="_blank">Go Now</a></div>
+                </section>
+                <section class="ice-card">
+                    <img src="images/position-css.png" alt="positioning css">
+                    <h4>Positioning CSS</h4>
+                    <div class="card-link"><a href="ice/positioning/positioning.html" target="_blank">Go Now</a></div>
+                </section>
+            </div>
+            <div id="all-ice">
+                <h3>All Ice Challenges</h3>
+                <div id="split-list">
+                    <ul>
+                        <li><a href="ice/apostle_spotlight/apostles.html" target="_blank">Apostle Spotlight</a></li>
+                        <li><a href="ice/fathersday/index.html" target="_blank">Father's Day</a></li>
+                        <li><a href="ice/favorite_devo/favdevo.html" target="_blank">Favorite Devo</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="ice/gallery/gallery.html" target="_blank">Gallery</a></li>
+                        <li><a href="ice/grid_flags/flags.html" target="_blank">Grid Flags</a></li>
+                        <li><a href="ice/positioning/positioning.html" target="_blank">Positioning</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="ice/prophet_cards/nelson.html" target="_blank">Prophet Cards</a></li>
+                        <li><a href="ice/signup/signup.html" target="_blank">Sign-Up Page</a></li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Portal Page Progress Dates</h2>
+            <div id="timetable">
+                <table class="darkTable">
+                    <thead>
+                    <tr>
+                    <th>Week</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td>Week 5</td>
+                    <td>5/24/2025</td>
+                    <td>
+                    <p>Planned wireframe and design of website.</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Week 6</td>
+                    <td>5/31/2025</td>
+                    <td><p>Started home page.</p></td>
+                    </tr>
+                    <tr>
+                    <td>Week 7</td>
+                    <td>6/7/2025</td>
+                    <td><p>Finished home page.</p></td>
+                    </tr>
+                    <tr>
+                    <td>Week <div>8-9</div></td>
+                    <td>N/A</td>
+                    <td><p>Built 'About Me' page and added finishing touches.</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>About Me</h2>
+            <section>
+                <p>
+                    Hello veiwer of this webpage, my name is Caleb. As of making this website I'm currently sutdying WDD130 as part of my Computer Science major.
+                    I have had a small amount of previous experience when it comes to programming a website with HTML and CSS, which has certainly helped me as I worked torwards making this website.
+                    My hope is that with the skills I have learned I will develop and design games, as it has always been a passion of mine. But it's still up in the air at the moment, who knows what
+                    will happen in the future. If you want to learn little bit more about me, click below.
+                </p>
+            </section>
+            <div class="button">
+                <a href="about_me.html">Go Now</a>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="ice/index.html">ICE</a></li>
+                    <li><a href="wwr/index.html" target="_blank">WWR</a></li>
+                    <li><a href="about_me.html">About Me</a></li>
+                </ul>
+                <p id="copy">&copy; 2025 - Caleb Moir</p>
+            </div>
+            <div>
+                <h3>Contact Me</h3>
+                <form>
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="social">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram" id="last"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
