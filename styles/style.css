@@ -458,6 +458,12 @@ table.darkTable td div {
     display: inline-block;
 }
 
+#report-card {
+    display: block;
+    justify-self: center;
+    margin: 50px auto;
+}
+
 @media screen and (max-width: 1004px) {
     #split-list {
         display: block;
