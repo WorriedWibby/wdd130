@@ -461,7 +461,7 @@ table.darkTable td div {
 #report-card {
     display: block;
     justify-self: center;
-    margin: 50px auto;
+    margin: 50px 145px;
 }
 
 @media screen and (max-width: 1004px) {
